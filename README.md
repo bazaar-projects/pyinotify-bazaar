@@ -1,5 +1,7 @@
 # Pyinotify
 
+[![Build Status](https://travis-ci.org/smarkets/pyinotify-smarkets.svg?branch=master)](https://travis-ci.org/smarkets/pyinotify-smarkets)
+
 * License          : MIT
 * Project URL      : [http://github.com/seb-m/pyinotify](http://github.com/seb-m/pyinotify)
 * Project Wiki     : [http://github.com/seb-m/pyinotify/wiki](http://github.com/seb-m/pyinotify/wiki)
