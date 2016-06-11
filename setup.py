@@ -20,8 +20,8 @@ except:
 platform = get_platform()
 
 # check Python's version
-if sys.version_info < (3, 0):
-    sys.stderr.write('This module requires at least Python 3.0\n')
+if sys.version_info < (3, 5):
+    sys.stderr.write('This module requires at least Python 3.5\n')
     sys.exit(1)
 
 classif = [
@@ -33,11 +33,7 @@ classif = [
     'Operating System :: POSIX :: Linux',
     'Programming Language :: Python',
     'Programming Language :: Python :: 3',
-    'Programming Language :: Python :: 3.0',
-    'Programming Language :: Python :: 3.1',
-    'Programming Language :: Python :: 3.2',
-    'Programming Language :: Python :: 3.3',
-    'Programming Language :: Python :: 3.4',
+    'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: Implementation :: CPython',
     'Topic :: Software Development :: Libraries :: Python Modules',
     'Topic :: System :: Filesystems',
