@@ -2,6 +2,7 @@
 
 * License          : MIT
 * Project URL      : [http://github.com/smarkets/pyinotify-smarkets](http://github.com/smarkets/pyinotify-smarkets)
+* Change log       : https://github.com/smarkets/pyinotify-smarkets/blob/master/CHANGES
 
 
 ## Dependencies
