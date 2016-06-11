@@ -2,6 +2,7 @@
 
 # pyinotify.py - python interface to inotify
 # Copyright (c) 2005-2015 Sebastien Martini <seb@dbzteam.org>
+# Copyright (c) 2016 Smarkets Limited
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal

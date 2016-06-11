@@ -1,11 +1,9 @@
-# Pyinotify
+# pyinotify-smarkets
 
 [![Build Status](https://travis-ci.org/smarkets/pyinotify-smarkets.svg?branch=master)](https://travis-ci.org/smarkets/pyinotify-smarkets)
 
 * License          : MIT
-* Project URL      : [http://github.com/seb-m/pyinotify](http://github.com/seb-m/pyinotify)
-* Project Wiki     : [http://github.com/seb-m/pyinotify/wiki](http://github.com/seb-m/pyinotify/wiki)
-* API Documentation: [http://seb-m.github.com/pyinotify](http://seb-m.github.com/pyinotify)
+* Project URL      : [http://github.com/smarkets/pyinotify-smarkets](http://github.com/smarkets/pyinotify-smarkets)
 
 
 ## Dependencies
@@ -19,15 +17,15 @@
 ### Get the current stable version from PyPI and install it with `pip`
 
     # To install pip follow http://www.pip-installer.org/en/latest/installing.html
-    $ sudo pip install pyinotify
+    $ sudo pip install pyinotify-smarkets
 
-### Or install Pyinotify directly from source
+### Or install pyinotify-smarkets directly from source
 
     $ sudo python setup.py install
 
 
 ## Watch a directory
 
-Install pyinotify and run this command from a shell:
+Install pyinotify-smarkets and run this command from a shell:
 
     $ python -m pyinotify -v /my-dir-to-watch
