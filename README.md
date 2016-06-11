@@ -9,7 +9,7 @@
 ## Dependencies
 
 * Linux ≥ 2.6.13
-* Python ≥ 2.4 (including Python 3.x)
+* Python 3.x
 
 
 ## Install
@@ -21,9 +21,7 @@
 
 ### Or install Pyinotify directly from source
 
-    # Choose your Python interpreter: either python, python2.7, python3.2,..
-    # Replacing XXX accordingly, type:
-    $ sudo pythonXXX setup.py install
+    $ sudo python setup.py install
 
 
 ## Watch a directory
