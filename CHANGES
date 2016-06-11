@@ -1,0 +1,8 @@
+1.0.0
+=====
+
+* Forked by Smarkets and renamed to pyinotify-smarkets because of the original
+  repository being unmaintained; the Python module is still called pyinotify
+* Backwards incompatible: Python 2/PyPy and Python 3.2-3.4 support dropped
+* selectors module is used instead of select.poll so that the code handles cases
+  where select.poll is not present

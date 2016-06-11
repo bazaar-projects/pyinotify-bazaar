@@ -81,7 +81,7 @@ if compile_ext_mod or should_compile_ext_mod():
 
 setup(
     name='pyinotify-smarkets',
-    version='0.9.6',
+    version='1.0.0',
     description='Linux filesystem events monitoring',
     author='Sebastien Martini',
     author_email='seb@dbzteam.org',
