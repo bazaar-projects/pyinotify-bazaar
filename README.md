@@ -9,7 +9,7 @@
 ## Dependencies
 
 * Linux ≥ 2.6.13
-* Python 3.x
+* Python ≥ 3.5
 
 
 ## Install
