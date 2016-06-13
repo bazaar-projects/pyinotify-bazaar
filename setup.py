@@ -80,16 +80,18 @@ if compile_ext_mod or should_compile_ext_mod():
 
 
 setup(
-    name='pyinotify',
-    version='0.9.6',
+    name='pyinotify-smarkets',
+    version='1.0.0',
     description='Linux filesystem events monitoring',
     author='Sebastien Martini',
     author_email='seb@dbzteam.org',
+    maintainer='Smarkets Limited',
+    maintainer_email='support@smarkets.com',
     license='MIT License',
     platforms='Linux',
     classifiers=classif,
-    url='http://github.com/seb-m/pyinotify',
-    download_url='http://pypi.python.org/pypi/pyinotify',
+    url='http://github.com/smarkets/pyinotify-smarkets',
+    download_url='http://pypi.python.org/pypi/pyinotify-smarkets',
     ext_modules=ext_mod,
     py_modules=['pyinotify'],
     )
