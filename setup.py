@@ -20,8 +20,8 @@ except:
 platform = get_platform()
 
 # check Python's version
-if sys.version_info < (2, 4):
-    sys.stderr.write('This module requires at least Python 2.4\n')
+if sys.version_info < (3, 5):
+    sys.stderr.write('This module requires at least Python 3.5\n')
     sys.exit(1)
 
 classif = [
@@ -32,29 +32,13 @@ classif = [
     'Natural Language :: English',
     'Operating System :: POSIX :: Linux',
     'Programming Language :: Python',
-    'Programming Language :: Python :: 2.4',
-    'Programming Language :: Python :: 2.5',
-    'Programming Language :: Python :: 2.6',
-    'Programming Language :: Python :: 2.7',
     'Programming Language :: Python :: 3',
-    'Programming Language :: Python :: 3.0',
-    'Programming Language :: Python :: 3.1',
-    'Programming Language :: Python :: 3.2',
-    'Programming Language :: Python :: 3.3',
-    'Programming Language :: Python :: 3.4',
+    'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: Implementation :: CPython',
-    'Programming Language :: Python :: Implementation :: PyPy',
     'Topic :: Software Development :: Libraries :: Python Modules',
     'Topic :: System :: Filesystems',
     'Topic :: System :: Monitoring',
     ]
-
-
-# Select branch
-if sys.version_info >= (3, 0):
-    package_dir = {'': 'python3'}
-else:
-    package_dir = {'': 'python2'}
 
 
 def should_compile_ext_mod():
@@ -108,5 +92,4 @@ setup(
     download_url='http://pypi.python.org/pypi/pyinotify',
     ext_modules=ext_mod,
     py_modules=['pyinotify'],
-    package_dir=package_dir,
     )
