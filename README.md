@@ -1,8 +1,8 @@
-# pyinotify-smarkets
+# pyinotify-bazaar
 
 * License          : MIT
-* Project URL      : [http://github.com/smarkets/pyinotify-smarkets](http://github.com/smarkets/pyinotify-smarkets)
-* Change log       : https://github.com/smarkets/pyinotify-smarkets/blob/master/CHANGES
+* Project URL      : [http://github.com/bazaar-projects/pyinotify-bazaar](http://github.com/bazaar-projects/pyinotify-bazaar)
+* Change log       : https://github.com/bazaar-projects/pyinotify-bazaar/blob/master/CHANGES
 
 
 ## Dependencies
@@ -16,15 +16,15 @@
 ### Get the current stable version from PyPI and install it with `pip`
 
     # To install pip follow http://www.pip-installer.org/en/latest/installing.html
-    $ sudo pip install pyinotify-smarkets
+    $ sudo pip install git+https://github.com/bazaar-projects/pyinotify-bazaar 
 
-### Or install pyinotify-smarkets directly from source
+### Or install pyinotify-bazaar directly from source
 
     $ sudo python setup.py install
 
 
 ## Watch a directory
 
-Install pyinotify-smarkets and run this command from a shell:
+Install pyinotify-bazaar and run this command from a shell:
 
     $ python -m pyinotify -v /my-dir-to-watch
